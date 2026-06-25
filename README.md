@@ -31,34 +31,56 @@ Also made on KiCad, it was also fun to do this, once I learned about vias. Has t
 <img width="966" height="770" alt="image" src="https://github.com/user-attachments/assets/48da54bc-6bdf-4744-9f71-9932d7cb97fb" />
 
 ## The case itself
-This image pictures both the top plate and bottom part of the case, seperated. They fit together using M3x16mm screws along with M3x5mx4mm heatset inserts through the 4 holes on each corner of the case.
+This image pictures both the top plate and bottom part of the case, seperated. They fit together using M3x16mm screws along with M3x5mx4mm heatset inserts through the 4 holes on each corner of the case. In total, there are only 2 printed parts, the top and the bottom.
 
 <img width="1343" height="835" alt="image" src="https://github.com/user-attachments/assets/2652f50e-755f-40b5-8576-8bf736b6f431" />
 
+## The Firmware
+This hackpad uses KMK firmware, and it was coded on VSCode using Python. 
+
 ## The BOM
 1x Seeed XIAO RP2040
+
 11x through-hold 1N4148 Diodes
+
 9x MX-Style Switches
+
 2x EC11 Rotary Encoders
+
 9x white (or really any color or design you want) DSA keycaps
+
 9x SK6812 MINI-E LEDs
+
 4x M3x16mm screws
+
 4x M3x5mx4mm heatset inserts
+
 
 ## Controls and binds
 Imagine a 3x3 grid
+
 A B C
+
 D E F
+
 G H I
 
 Key A is bound to F13
+
 Key B is bound to F14
+
 Key C is bound to F15
+
 Key D is bound to F16
+
 Key E is bound to F17
+
 Key F is bound to F18
+
 Key G is bound to F19
+
 Key H is bound to F20
+
 Key I is bound to F21
 
 In addition to that, due to a lack of pins, clicking down on the top dial is also mapped to whatever Key C is mapped to, and clicking down on the bottom dial is mapped to whatever Key I is mapped to.
